@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url(/img/people.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+/*Container*/
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 150px auto;
+}
+
+/*Descrição*/
+.descricao{
+    width: 500px;
+}
+.descricao h1{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+.descricao p{
+ color: rgb(226, 226, 226);
+}
+/*Formulario*/
+.formulario{
+    background: white;
+    width: 400px;
+    height: 164px;
+    border-radius: 20px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.form h1{
+    margin: 35px auto;
+}
+.form input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 350px;
+    margin: 5px auto;
+    border-radius: 7px;
+}
+.btn{
+    background: rgb(41, 209, 8);
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+.form button{
+    display: block;
+    padding: 1rem;
+    margin-top: 10px;
+    background-color: white;
+    color:black;
+    font:inherit;
+    border-radius: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.2s;
+
+}
